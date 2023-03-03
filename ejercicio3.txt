@@ -1,0 +1,23 @@
+1. git init
+2. touch index.html, agregue el encabezado del html con atom
+3. git status -> git add index.html -> git commit -m 'agrega index.html' 
+4. git branch develop
+5. git checkout develop
+6. touch .env, abrir con atom el archivo y agregue PASSWORD=1234
+7. touch .gitignore
+8. agregue al archivo .gitignore ".env"
+9. git add .gitignore
+10. agregue una linea al archivo index.html -> git add. index.html
+11. git commit -m 'cambios en la rama develop'
+12. git checkout master (estoy usando Git Bash)
+13. cat index.html
+14. git merge develop
+Updating c48ff24..13a775f
+Fast-forward
+ .gitignore | 4 ++--
+ index.html | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+15. cat index.html
+16. git ls-files --other --ignored --exclude-standard
+.env
+17. https://github.com/mike1591991/aspirantes-mir-ejercicio-3
