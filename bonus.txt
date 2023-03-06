@@ -1,0 +1,11 @@
+Bonus:
+1. git clone https://github.com/mike1591991/aspirantes-mir-ejercicio-3
+2. cd aspirantes-mir-ejercicio-3
+3. git checkout -b nueva-funcionalidad
+4. touch nuevo-archivo.txt -> agregue algo de contenido
+5. git add nuevo-archivo.txt
+6. git commit -m 'Agregado nuevo archivo para la nueva funcionalidad'
+7. git checkout main
+8. cat nuevo-archivo.txt -> cat: nuevo-archivo.txt: No such file or directory
+9. git merge nueva-funcionalidad Updating 68e35b0..e0a28d6 Fast-forward nuevo-archivo.txt | 4 ++++ 1 file changed, 4 insertions(+) create mode 100644 nuevo-archivo.txt
+10. cat nuevo-archivo.txt esto es algo de contenido
